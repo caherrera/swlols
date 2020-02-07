@@ -1,0 +1,9 @@
+{
+    "description": "Google Analytics",
+    "host": "googletagmanager.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

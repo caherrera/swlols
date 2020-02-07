@@ -1,0 +1,9 @@
+{
+    "description": "Alpine's Mirror",
+    "host": "mirror.lzu.edu.cn",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

@@ -1,0 +1,9 @@
+{
+    "description": "Linux Kernel Repository",
+    "host": "sjc.edge.kernel.org",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

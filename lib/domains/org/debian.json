@@ -1,0 +1,9 @@
+{
+    "description": "Debian's Servers",
+    "host": "debian.org",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

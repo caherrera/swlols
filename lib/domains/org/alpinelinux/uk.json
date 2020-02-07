@@ -1,0 +1,9 @@
+{
+    "description": "Alpine's Mirror",
+    "host": "uk.alpinelinux.org",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

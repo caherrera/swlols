@@ -1,0 +1,9 @@
+{
+    "description": "Attlasian Git platform",
+    "host": "bitbucket.org",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

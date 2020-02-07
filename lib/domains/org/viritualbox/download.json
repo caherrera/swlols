@@ -1,0 +1,9 @@
+{
+    "description": "Alpine's Mirror",
+    "host": "download.viritualbox.org",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

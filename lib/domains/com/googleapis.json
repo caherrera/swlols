@@ -1,0 +1,9 @@
+{
+    "description": "Google APIs",
+    "host": "googleapis.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

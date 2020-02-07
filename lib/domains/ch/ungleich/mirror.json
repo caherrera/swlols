@@ -1,0 +1,9 @@
+{
+    "description": "Alpine's Mirror",
+    "host": "mirror.ungleich.ch",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

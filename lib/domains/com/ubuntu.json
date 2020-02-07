@@ -1,0 +1,9 @@
+{
+    "description": "Ubuntu's Mirror",
+    "host": "ubuntu.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

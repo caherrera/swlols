@@ -1,0 +1,9 @@
+{
+    "description": "Suse's Mirror",
+    "host": "packagehub.suse.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

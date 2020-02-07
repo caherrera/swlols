@@ -1,0 +1,9 @@
+{
+    "description": "Docker Hub Repository",
+    "host": "hub.docker.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

@@ -1,0 +1,9 @@
+{
+    "description": "Terraform",
+    "host": "terraform.io",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

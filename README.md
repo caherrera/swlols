@@ -7,3 +7,18 @@ If your company has a very strong security policy and you're requested constantl
 
 This project is a kind of fork of swot initiative that is sourcing a list of educational institutions for discounts, but applied to guarantee that servers may have access to essential repositories such as docker, github, kernel.org, etc
 
+## Usage
+
+You can import a TSV file with 4 columns:
+    - Host (may include *)
+    - Description
+    - TCP ports (comma separated)
+    - UDP ports (comma separated)
+    
+Example:
+
+```text
+*.microsoft.com	Microsoft	80,443	
+
+```
+

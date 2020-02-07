@@ -1,0 +1,9 @@
+{
+    "description": "Git's Public Repository",
+    "host": "gitlab.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

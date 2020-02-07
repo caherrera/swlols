@@ -1,0 +1,9 @@
+{
+    "description": "Microsoft",
+    "host": "microsoft.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

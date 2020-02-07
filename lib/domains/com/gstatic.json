@@ -1,0 +1,9 @@
+{
+    "description": "Google Analytics",
+    "host": "gstatic.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

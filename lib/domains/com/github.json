@@ -1,0 +1,9 @@
+{
+    "description": "Git's Public Repository",
+    "host": "github.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

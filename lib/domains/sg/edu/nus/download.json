@@ -1,0 +1,9 @@
+{
+    "description": "Alpine's Mirror",
+    "host": "download.nus.edu.sg",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

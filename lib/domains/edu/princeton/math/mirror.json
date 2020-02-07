@@ -1,0 +1,9 @@
+{
+    "description": "Alpine's Mirror",
+    "host": "mirror.math.princeton.edu",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

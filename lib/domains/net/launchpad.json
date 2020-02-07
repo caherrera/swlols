@@ -1,0 +1,9 @@
+{
+    "description": "Ubuntu package building and hosting",
+    "host": "launchpad.net",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

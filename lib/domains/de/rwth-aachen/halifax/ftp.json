@@ -1,0 +1,9 @@
+{
+    "description": "Alpine's Mirror",
+    "host": "ftp.halifax.rwth-aachen.de",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

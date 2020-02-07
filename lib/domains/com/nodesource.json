@@ -1,0 +1,9 @@
+{
+    "description": "NodeJS Platform Services",
+    "host": "nodesource.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

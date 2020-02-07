@@ -1,0 +1,9 @@
+{
+    "description": "Alpine's Mirror",
+    "host": "mirror.operationtulip.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

@@ -1,0 +1,9 @@
+{
+    "description": "Microsoft",
+    "host": "office.com",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

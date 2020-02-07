@@ -1,0 +1,9 @@
+{
+    "description": "Hashicorp Vault Mirror",
+    "host": "vaultproject.io",
+    "tcp": [
+        "80",
+        "443"
+    ],
+    "udp": []
+}

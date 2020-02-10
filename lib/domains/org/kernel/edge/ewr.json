@@ -1,9 +1,0 @@
-{
-    "description": "Alpine's Mirror",
-    "host": "ewr.edge.kernel.org",
-    "tcp": [
-        "80",
-        "443"
-    ],
-    "udp": []
-}

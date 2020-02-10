@@ -1,0 +1,11 @@
+{
+    "description": "Alpine Linux Repositories",
+    "host": "alpinelinux.org",
+    "pattern": "*.alpinelinux.org",
+    "tcp": [
+        ""
+    ],
+    "udp": [
+        ""
+    ]
+}

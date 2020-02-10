@@ -1,0 +1,11 @@
+{
+    "description": "Linux Kernel Repositories",
+    "host": "kernel.org",
+    "pattern": "*.kernel.org",
+    "tcp": [
+        ""
+    ],
+    "udp": [
+        ""
+    ]
+}

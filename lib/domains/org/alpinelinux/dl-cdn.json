@@ -1,9 +1,0 @@
-{
-    "description": "Alpine's Mirror",
-    "host": "dl-cdn.alpinelinux.org",
-    "tcp": [
-        "80",
-        "443"
-    ],
-    "udp": []
-}

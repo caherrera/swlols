@@ -1,6 +1,7 @@
 {
     "description": "Kubernetes",
     "host": "kubernetes.io",
+    "pattern": "*.kubernetes.io",
     "tcp": [
         "80",
         "443"

@@ -20,7 +20,11 @@ if len(sys.argv) > 1:
 
     for f in files:
         j = load_json(f)
-        hosts.append((j['host']))
+        try:
+            a = j['pattern']
+        except:
+            a = j['host']
+        hosts.append(a)
 
     hosts.sort()
 

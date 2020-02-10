@@ -40,7 +40,7 @@ def process_row(row):
         base_dir = "./lib/domains/" + "/".join(zones)
         p = os.path.realpath(base_dir + '.json')
         print("Line {}: {}".format(row[0], p))
-        pretty = json.dumps(y, sort_keys=True, indent=4)
+        pretty = json.dumps(y, sort_keys=True, indent=2)
 
         dirname = os.path.dirname(p)
         pathlib.Path(dirname).mkdir(parents=True, exist_ok=True)

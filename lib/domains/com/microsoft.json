@@ -1,6 +1,7 @@
 {
     "description": "Microsoft",
     "host": "microsoft.com",
+    "pattern": "*.microsoft.com",
     "tcp": [
         "80",
         "443"

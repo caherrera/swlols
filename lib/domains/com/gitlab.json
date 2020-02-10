@@ -1,5 +1,6 @@
 {
     "description": "Git's Public Repository",
+    "pattern": "*.gitlab.com",
     "host": "gitlab.com",
     "tcp": [
         "80",

@@ -1,6 +1,7 @@
 {
     "description": "Ubuntu package building and hosting",
     "host": "launchpad.net",
+    "pattern": "*.launchpad.net",
     "tcp": [
         "80",
         "443"

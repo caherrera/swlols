@@ -1,6 +1,7 @@
 {
     "description": "Attlasian Git platform",
     "host": "bitbucket.org",
+    "pattern": "*.bitbucket.org",
     "tcp": [
         "80",
         "443"

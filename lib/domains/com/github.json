@@ -1,6 +1,7 @@
 {
     "description": "Git's Public Repository",
     "host": "github.com",
+    "pattern": "*.github.com",
     "tcp": [
         "80",
         "443"

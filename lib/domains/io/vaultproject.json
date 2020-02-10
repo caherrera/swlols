@@ -1,9 +1,10 @@
 {
-    "description": "Hashicorp Vault Mirror",
-    "host": "vaultproject.io",
-    "tcp": [
-        "80",
-        "443"
-    ],
-    "udp": []
+  "description": "Hashicorp Vault Mirror",
+  "host": "vaultproject.io",
+  "pattern": "*.vaultproject.io",
+  "tcp": [
+    "80",
+    "443"
+  ],
+  "udp": []
 }

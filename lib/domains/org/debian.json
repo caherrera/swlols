@@ -1,9 +1,11 @@
 {
-    "description": "Debian's Servers",
-    "host": "debian.org",
-    "tcp": [
-        "80",
-        "443"
-    ],
-    "udp": []
+  "description": "Debian Linux Repositories",
+  "host": "debian.org",
+  "pattern": "*.debian.org",
+  "tcp": [
+    ""
+  ],
+  "udp": [
+    ""
+  ]
 }

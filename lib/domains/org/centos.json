@@ -1,0 +1,11 @@
+{
+  "description": "Centos Linux Repositories",
+  "host": "centos.org",
+  "pattern": "*.centos.org",
+  "tcp": [
+    ""
+  ],
+  "udp": [
+    ""
+  ]
+}

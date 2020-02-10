@@ -2,6 +2,7 @@ import sys
 import pathlib
 import json
 import os.path
+import shutil
 
 
 def array_reverse(lst):
@@ -31,11 +32,13 @@ def process_row(row):
         y = {
             'description': row[1],
             'host': ".".join(host),
+            'pattern': ".".join(hostname),
             'tcp': tcp,
             'udp': udp
         }
 
-        p = os.path.realpath("./lib/domains/" + "/".join(zones) + '.json')
+        base_dir = "./lib/domains/" + "/".join(zones)
+        p = os.path.realpath(base_dir + '.json')
         print("Line {}: {}".format(row[0], p))
         pretty = json.dumps(y, sort_keys=True, indent=4)
 
@@ -45,6 +48,10 @@ def process_row(row):
         json_file = open(p, "w")
         json_file.write(pretty);
         json_file.close()
+
+        if hostname[0] == '*' and pathlib.Path(base_dir).is_dir():
+            print("Warning {}: {}".format(row[0], "will replace " + "/".join(zones)))
+            shutil.rmtree(base_dir, ignore_errors=False, onerror=None)
 
 
 def import_file(filename):
@@ -72,5 +79,5 @@ if len(sys.argv) == 2:
 
 elif len(sys.argv) == 5:
     row = sys.argv
-    del(row[0])
+    del (row[0])
     process_row(row)

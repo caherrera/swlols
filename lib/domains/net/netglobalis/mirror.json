@@ -1,0 +1,11 @@
+{
+  "description": "Netglobalis Mirror Repositories",
+  "host": "mirror.netglobalis.net",
+  "pattern": "mirror.netglobalis.net",
+  "tcp": [
+    ""
+  ],
+  "udp": [
+    ""
+  ]
+}
